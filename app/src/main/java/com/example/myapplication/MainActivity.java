@@ -20,7 +20,17 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void goToNormalActivitiy(View view) {
-        Intent toNormal = new Intent( pakageContext this, NormalActivity.class );
+        Intent toNormal = new Intent( this, NormalActivity.class );
         startActivity(toNormal);
+    }
+
+    public void goToMechanismActivity(View view) {
+        Intent toMechanism = new Intent(this, MechanismActivity.class);
+        startActivity(toMechanism);
+    }
+
+    public void goToHandling_Fever(View view) {
+        Intent toHandring = new Intent(this, Hanling_Fever.class);
+        startActivity(toHandring);
     }
 }
