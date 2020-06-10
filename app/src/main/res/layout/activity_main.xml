@@ -23,7 +23,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginBottom="44dp"
-        android:text="BT Tracker"
+        android:text="@string/bt_tracker"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         android:textColor="#D14646"
         app:drawableTint="#FF9800"
@@ -62,14 +62,14 @@
             android:background="#75B77C"
             android:paddingLeft="10dp"
             android:paddingTop="10dp"
-            android:text="Log Body Temperature"
+            android:text="@string/log_body_temperature"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textColor="#FFFFFF" />
 
         <View
             android:id="@+id/view3"
             android:layout_width="match_parent"
-            android:layout_height="10dp" />
+            android:layout_height="2dp" />
 
         <TextView
             android:id="@+id/mainButton2"
@@ -79,14 +79,14 @@
             android:background="#8BC34A"
             android:paddingLeft="10dp"
             android:paddingTop="10dp"
-            android:text="Check Normal Range"
+            android:text="@string/check_normal_range"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textColor="#FFFFFF" />
 
         <View
             android:id="@+id/view5"
             android:layout_width="match_parent"
-            android:layout_height="10dp" />
+            android:layout_height="2dp" />
 
         <TextView
             android:id="@+id/mainButton4"
@@ -96,14 +96,15 @@
             android:background="#2CA538"
             android:paddingLeft="10dp"
             android:paddingTop="10dp"
-            android:text="Mechanism Of Fever"
+            android:text="@string/mechanism_of_fever"
+            android:onClick="openFeverHandlingWebsite"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textColor="#FFFFFF" />
 
         <View
             android:id="@+id/view6"
             android:layout_width="match_parent"
-            android:layout_height="10dp" />
+            android:layout_height="2dp" />
 
         <TextView
             android:id="@+id/mainButton3"
@@ -113,7 +114,7 @@
             android:background="#68B07C"
             android:paddingLeft="10dp"
             android:paddingTop="10dp"
-            android:text="Handring Fever"
+            android:text="@string/handring_fever"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textColor="#FFFFFF" />
     </LinearLayout>
