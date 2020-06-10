@@ -12,7 +12,7 @@
         android:layout_height="201dp"
         android:background="#39C03E"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.509"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -43,6 +43,7 @@
         android:contentDescription="TODO" />
 
     <LinearLayout
+        android:id="@+id/linearLayout2"
         android:layout_width="347dp"
         android:layout_height="279dp"
         android:layout_marginLeft="10dp"
@@ -74,7 +75,7 @@
         <TextView
             android:id="@+id/mainButton2"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:layout_weight="1"
             android:background="#8BC34A"
             android:paddingLeft="10dp"
@@ -91,20 +92,19 @@
         <TextView
             android:id="@+id/mainButton4"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="53dp"
             android:layout_weight="1"
             android:background="#2CA538"
             android:paddingLeft="10dp"
             android:paddingTop="10dp"
             android:text="@string/mechanism_of_fever"
-            android:onClick="openFeverHandlingWebsite"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textColor="#FFFFFF" />
 
         <View
             android:id="@+id/view6"
             android:layout_width="match_parent"
-            android:layout_height="2dp" />
+            android:layout_height="1dp" />
 
         <TextView
             android:id="@+id/mainButton3"
@@ -118,5 +118,19 @@
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textColor="#FFFFFF" />
     </LinearLayout>
+
+    <Button
+        android:id="@+id/setReminderbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/setReminder"
+        android:onClick="setReminder"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+        app:layout_constraintVertical_bias="0.398" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
