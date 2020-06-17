@@ -3,7 +3,7 @@
     <string name="log_body_temperature">Log Body Temperature</string>
     <string name="check_normal_range">Check Normal Range</string>
     <string name="mechanism_of_fever">Mechanism Of Fever</string>
-    <string name="handring_fever">Handring Fever</string>
+    <string name="handling_fever">Handling Fever</string>
     <string name="bt_tracker">BT Tracker</string>
     <string name="setReminder">setReminder</string>
 </resources>

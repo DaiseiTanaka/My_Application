@@ -10,7 +10,7 @@
         android:id="@+id/titleBackground"
         android:layout_width="0dp"
         android:layout_height="201dp"
-        android:background="#39C03E"
+        android:background="#02010a"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -18,29 +18,17 @@
 
     <TextView
         android:id="@+id/Textview1"
-        android:layout_width="171dp"
-        android:layout_height="52dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginBottom="44dp"
+        android:layout_width="239dp"
+        android:layout_height="64dp"
+        android:layout_marginBottom="52dp"
         android:text="@string/bt_tracker"
-        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
-        android:textColor="#D14646"
-        app:drawableTint="#FF9800"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="#88ccf1"
+        app:drawableTint="#87a70a"
         app:layout_constraintBottom_toBottomOf="@+id/titleBackground"
-        app:layout_constraintStart_toEndOf="@+id/imageView" />
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="58dp"
-        android:layout_height="60dp"
-        android:layout_marginStart="24dp"
-        android:layout_marginLeft="24dp"
-        android:layout_marginBottom="44dp"
-        app:layout_constraintBottom_toBottomOf="@+id/titleBackground"
-        app:layout_constraintStart_toStartOf="@+id/titleBackground"
-        app:srcCompat="@android:drawable/btn_star"
-        android:contentDescription="TODO" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.633"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <LinearLayout
         android:id="@+id/linearLayout2"
@@ -58,9 +46,9 @@
         <TextView
             android:id="@+id/MainButton1"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="51dp"
             android:layout_weight="1"
-            android:background="#75B77C"
+            android:background="#04052e"
             android:paddingLeft="10dp"
             android:paddingTop="10dp"
             android:text="@string/log_body_temperature"
@@ -70,14 +58,14 @@
         <View
             android:id="@+id/view3"
             android:layout_width="match_parent"
-            android:layout_height="2dp" />
+            android:layout_height="5dp" />
 
         <TextView
             android:id="@+id/mainButton2"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_weight="1"
-            android:background="#8BC34A"
+            android:background="#140152"
             android:paddingLeft="10dp"
             android:paddingTop="10dp"
             android:text="@string/check_normal_range"
@@ -87,14 +75,14 @@
         <View
             android:id="@+id/view5"
             android:layout_width="match_parent"
-            android:layout_height="2dp" />
+            android:layout_height="4dp" />
 
         <TextView
             android:id="@+id/mainButton4"
             android:layout_width="match_parent"
-            android:layout_height="53dp"
+            android:layout_height="50dp"
             android:layout_weight="1"
-            android:background="#2CA538"
+            android:background="#22007c"
             android:paddingLeft="10dp"
             android:paddingTop="10dp"
             android:text="@string/mechanism_of_fever"
@@ -104,17 +92,17 @@
         <View
             android:id="@+id/view6"
             android:layout_width="match_parent"
-            android:layout_height="1dp" />
+            android:layout_height="4dp" />
 
         <TextView
             android:id="@+id/mainButton3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:background="#68B07C"
+            android:background="#0d00a4"
             android:paddingLeft="10dp"
             android:paddingTop="10dp"
-            android:text="@string/handring_fever"
+            android:text="@string/handling_fever"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textColor="#FFFFFF" />
     </LinearLayout>
@@ -131,6 +119,19 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
         app:layout_constraintVertical_bias="0.398" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginBottom="44dp"
+        app:layout_constraintBottom_toBottomOf="@+id/titleBackground"
+        app:layout_constraintEnd_toStartOf="@+id/Textview1"
+        app:layout_constraintHorizontal_bias="0.794"
+        app:layout_constraintStart_toStartOf="@+id/titleBackground"
+        app:srcCompat="@android:drawable/sym_def_app_icon" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
